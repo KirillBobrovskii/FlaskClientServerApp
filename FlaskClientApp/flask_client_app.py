@@ -51,8 +51,8 @@ class MainWindow(QMainWindow):
 
         headers = self.table.horizontalHeader()
         headers.setSectionResizeMode(0, QHeaderView.ResizeMode.ResizeToContents)
-        headers.setSectionResizeMode(1, QHeaderView.ResizeMode.Stretch)
-        headers.setSectionResizeMode(2, QHeaderView.ResizeMode.Stretch)
+        headers.setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents)
+        headers.setSectionResizeMode(2, QHeaderView.ResizeMode.ResizeToContents)
 
         #Секция для таблицы
         table_layout = QVBoxLayout()
